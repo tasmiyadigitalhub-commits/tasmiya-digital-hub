@@ -7,11 +7,22 @@ import { SafeImage } from "@/components/ui/SafeImage";
 import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Our Digital Marketing Agency",
   description:
-    "Learn about Tasmiya Digital Hub—a growing digital agency helping small businesses, startups, and academies in Pakistan and internationally build trustworthy websites.",
+    "Learn about Tasmiya Digital Hub, a growing digital marketing agency offering website design, SEO services, and social media marketing in Pakistan and globally.",
   alternates: {
     canonical: "/about",
+  },
+  openGraph: {
+    title: "About Our Digital Marketing Agency | Tasmiya Digital Hub",
+    description:
+      "Learn about Tasmiya Digital Hub, a growing digital marketing agency offering website design, SEO services, and social media marketing in Pakistan and globally.",
+    url: "/about",
+  },
+  twitter: {
+    title: "About Our Digital Marketing Agency | Tasmiya Digital Hub",
+    description:
+      "Learn about Tasmiya Digital Hub, a growing digital marketing agency offering website design, SEO services, and social media marketing in Pakistan and globally.",
   },
 };
 

@@ -5,11 +5,22 @@ import { siteConfig, getWhatsAppHref } from "@/lib/site-config";
 import { ContactEnquiryForm } from "@/components/sections/ContactEnquiryForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact Our Digital Marketing Agency",
   description:
-    "Contact Tasmiya Digital Hub on WhatsApp (+92 306 5469314) or prepare an enquiry for website design, SEO setup, and digital marketing support.",
+    "Contact Tasmiya Digital Hub on WhatsApp (+92 306 5469314) for website design, SEO services, and social media marketing support in Pakistan and globally.",
   alternates: {
     canonical: "/contact",
+  },
+  openGraph: {
+    title: "Contact Our Digital Marketing Agency | Tasmiya Digital Hub",
+    description:
+      "Contact Tasmiya Digital Hub on WhatsApp (+92 306 5469314) for website design, SEO services, and social media marketing support in Pakistan and globally.",
+    url: "/contact",
+  },
+  twitter: {
+    title: "Contact Our Digital Marketing Agency | Tasmiya Digital Hub",
+    description:
+      "Contact Tasmiya Digital Hub on WhatsApp (+92 306 5469314) for website design, SEO services, and social media marketing support in Pakistan and globally.",
   },
 };
 

@@ -52,12 +52,12 @@ export default function RootLayout({
     url: siteConfig.siteUrl,
     areaServed: ["Pakistan", "Worldwide"],
     serviceType: [
-      "Business Website Design",
+      "Website Design",
       "Landing Page Design",
-      "On-page SEO Setup",
+      "SEO Services",
       "Technical SEO Foundations",
       "Website Speed and Mobile Optimization",
-      "Social Media Content and Digital Marketing Support",
+      "Social Media Marketing",
     ],
   };
 

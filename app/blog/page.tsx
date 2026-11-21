@@ -3,11 +3,22 @@ import { BlogFilterList } from "@/components/sections/BlogFilterList";
 import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 
 export const metadata: Metadata = {
-  title: "Blog & Digital Guides",
+  title: "Website Design, SEO & Marketing Blog",
   description:
-    "Practical guides on business website design, on-page SEO foundations, mobile optimization, and academy web architecture from Tasmiya Digital Hub.",
+    "Practical guides on website design, SEO services, mobile speed optimization, and social media marketing from Tasmiya Digital Hub.",
   alternates: {
     canonical: "/blog",
+  },
+  openGraph: {
+    title: "Website Design, SEO & Marketing Blog | Tasmiya Digital Hub",
+    description:
+      "Practical guides on website design, SEO services, mobile speed optimization, and social media marketing from Tasmiya Digital Hub.",
+    url: "/blog",
+  },
+  twitter: {
+    title: "Website Design, SEO & Marketing Blog | Tasmiya Digital Hub",
+    description:
+      "Practical guides on website design, SEO services, mobile speed optimization, and social media marketing from Tasmiya Digital Hub.",
   },
 };
 

@@ -7,11 +7,22 @@ import { EduPilotDemoPreview } from "@/components/sections/EduPilotDemoPreview";
 import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 
 export const metadata: Metadata = {
-  title: "EduPilot — Concept Demo Academy Website",
+  title: "EduPilot — Concept Demo Academy Website Design",
   description:
-    "Interactive Concept Demo and case study for EduPilot, a demonstration academy website layout built by Tasmiya Digital Hub.",
+    "Interactive Concept Demo and case study for EduPilot, a responsive academy website design and SEO showcase built by Tasmiya Digital Hub.",
   alternates: {
     canonical: "/portfolio/edupilot",
+  },
+  openGraph: {
+    title: "EduPilot — Concept Demo Academy Website Design | Tasmiya Digital Hub",
+    description:
+      "Interactive Concept Demo and case study for EduPilot, a responsive academy website design and SEO showcase built by Tasmiya Digital Hub.",
+    url: "/portfolio/edupilot",
+  },
+  twitter: {
+    title: "EduPilot — Concept Demo Academy Website Design | Tasmiya Digital Hub",
+    description:
+      "Interactive Concept Demo and case study for EduPilot, a responsive academy website design and SEO showcase built by Tasmiya Digital Hub.",
   },
 };
 

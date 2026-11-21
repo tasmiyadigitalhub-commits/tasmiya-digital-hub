@@ -18,11 +18,24 @@ import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Tasmiya Digital Hub — Web Design, SEO & Digital Marketing",
+  title: {
+    absolute: "Tasmiya Digital Hub | Digital Marketing Agency & Web Design",
+  },
   description:
-    "Build a stronger digital presence for your business. Tasmiya Digital Hub designs fast websites, sets up SEO foundations, and supports brands in Pakistan and worldwide.",
+    "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, and social media marketing for businesses in Pakistan and globally.",
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    title: "Tasmiya Digital Hub | Digital Marketing Agency & Web Design",
+    description:
+      "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, and social media marketing for businesses in Pakistan and globally.",
+    url: "/",
+  },
+  twitter: {
+    title: "Tasmiya Digital Hub | Digital Marketing Agency & Web Design",
+    description:
+      "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, and social media marketing for businesses in Pakistan and globally.",
   },
 };
 
@@ -59,9 +72,9 @@ export default function HomePage() {
               </h1>
 
               <p className="max-w-xl text-base leading-relaxed text-[#D9CEF7] sm:text-lg">
-                Tasmiya Digital Hub helps small businesses, startups, academies, and
-                international founders replace outdated pages with fast, search-ready
-                websites built to earn genuine enquiries.
+                As a digital marketing agency serving Pakistan and international
+                founders, Tasmiya Digital Hub delivers fast website design, practical
+                SEO services, and social media marketing built to earn genuine enquiries.
               </p>
 
               <div className="flex flex-wrap items-center gap-4 pt-2">

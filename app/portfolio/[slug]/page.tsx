@@ -34,6 +34,15 @@ export async function generateMetadata({
     alternates: {
       canonical: `/portfolio/${project.slug}`,
     },
+    openGraph: {
+      title: `${project.title} — ${project.category} | Tasmiya Digital Hub`,
+      description: project.summary,
+      url: `/portfolio/${project.slug}`,
+    },
+    twitter: {
+      title: `${project.title} — ${project.category} | Tasmiya Digital Hub`,
+      description: project.summary,
+    },
   };
 }
 

@@ -5,11 +5,22 @@ import { servicesList, processSteps } from "@/lib/content";
 import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Website Design & SEO Services",
   description:
-    "Explore Tasmiya Digital Hub services: professional business website design, landing pages, on-page and technical SEO setup, speed optimization, and digital marketing support.",
+    "Explore website design, landing pages, SEO services, speed optimization, and social media marketing support from Tasmiya Digital Hub in Pakistan and globally.",
   alternates: {
     canonical: "/services",
+  },
+  openGraph: {
+    title: "Website Design & SEO Services | Tasmiya Digital Hub",
+    description:
+      "Explore website design, landing pages, SEO services, speed optimization, and social media marketing support from Tasmiya Digital Hub in Pakistan and globally.",
+    url: "/services",
+  },
+  twitter: {
+    title: "Website Design & SEO Services | Tasmiya Digital Hub",
+    description:
+      "Explore website design, landing pages, SEO services, speed optimization, and social media marketing support from Tasmiya Digital Hub in Pakistan and globally.",
   },
 };
 
@@ -24,12 +35,12 @@ export default function ServicesPage() {
               Our Services · Pakistan &amp; International
             </p>
             <h1 className="text-[clamp(2rem,4vw,3.25rem)] font-bold leading-[1.12] tracking-tight text-white">
-              Focused Web Design, Search Foundations, and Marketing Support
+              Focused Website Design, SEO Services, and Social Media Marketing
             </h1>
             <p className="text-base leading-relaxed text-[#D9CEF7] sm:text-lg">
-              Every service is designed to work together: clear website messaging,
-              fast mobile performance, clean search structure, and consistent content
-              across your digital channels.
+              Every service is built to work together: clear website design, fast
+              mobile performance, structured SEO services, and consistent social media
+              marketing across your digital channels.
             </p>
           </div>
 

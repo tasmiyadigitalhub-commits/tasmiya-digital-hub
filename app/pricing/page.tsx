@@ -6,11 +6,22 @@ import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Pricing & Starter Packages",
+  title: "Website Design & SEO Services Pricing",
   description:
-    "Explore quote-based website and SEO setup packages from Tasmiya Digital Hub with clear deliverables, page limits, revisions, delivery estimates, and exclusions.",
+    "Compare quote-based website design and SEO services packages from Tasmiya Digital Hub with clear deliverables, page limits, revisions, and exclusions.",
   alternates: {
     canonical: "/pricing",
+  },
+  openGraph: {
+    title: "Website Design & SEO Services Pricing | Tasmiya Digital Hub",
+    description:
+      "Compare quote-based website design and SEO services packages from Tasmiya Digital Hub with clear deliverables, page limits, revisions, and exclusions.",
+    url: "/pricing",
+  },
+  twitter: {
+    title: "Website Design & SEO Services Pricing | Tasmiya Digital Hub",
+    description:
+      "Compare quote-based website design and SEO services packages from Tasmiya Digital Hub with clear deliverables, page limits, revisions, and exclusions.",
   },
 };
 

@@ -4,11 +4,22 @@ import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 import { Info } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Portfolio & Concept Demo Showcases",
+  title: "Website Design Portfolio & Concept Demos",
   description:
-    "Explore Tasmiya Digital Hub Concept Demo websites and architecture showcases, including our interactive EduPilot academy website Concept Demo.",
+    "Explore Tasmiya Digital Hub website design Concept Demos and SEO architecture showcases, including the interactive EduPilot academy Concept Demo.",
   alternates: {
     canonical: "/portfolio",
+  },
+  openGraph: {
+    title: "Website Design Portfolio & Concept Demos | Tasmiya Digital Hub",
+    description:
+      "Explore Tasmiya Digital Hub website design Concept Demos and SEO architecture showcases, including the interactive EduPilot academy Concept Demo.",
+    url: "/portfolio",
+  },
+  twitter: {
+    title: "Website Design Portfolio & Concept Demos | Tasmiya Digital Hub",
+    description:
+      "Explore Tasmiya Digital Hub website design Concept Demos and SEO architecture showcases, including the interactive EduPilot academy Concept Demo.",
   },
 };
 

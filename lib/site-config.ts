@@ -9,10 +9,13 @@ export const siteConfig = {
   brandName: "TASMIYA DIGITAL HUB",
   shortName: "Tasmiya Digital Hub",
   tagline: "Your Business Deserves a Better Digital Presence.",
-  siteUrl: process.env.APP_URL || "https://tasmiyadigitalhub.com",
-  defaultTitle: "Tasmiya Digital Hub — Web Design, SEO & Digital Marketing",
+  siteUrl: (process.env.APP_URL || "https://tasmiyadigitalhub.com")
+    .trim()
+    .replace(/\/$/, ""),
+  defaultTitle:
+    "Tasmiya Digital Hub | Digital Marketing Agency & Website Design",
   defaultDescription:
-    "Your Business Deserves a Better Digital Presence. Website design, on-page and technical SEO, speed optimization, and digital marketing support for businesses in Pakistan and internationally.",
+    "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, speed optimization, and social media marketing in Pakistan and globally.",
   regionsServed: "Pakistan & International",
   audienceSummary:
     "Small businesses, startups, entrepreneurs, local businesses, academies, and international business owners.",

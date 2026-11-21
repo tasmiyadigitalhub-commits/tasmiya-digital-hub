@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: "Page Not Found",
   description:
     "The page you requested could not be found on Tasmiya Digital Hub.",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function NotFound() {
