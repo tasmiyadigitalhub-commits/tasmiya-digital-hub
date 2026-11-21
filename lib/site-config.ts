@@ -9,9 +9,7 @@ export const siteConfig = {
   brandName: "TASMIYA DIGITAL HUB",
   shortName: "Tasmiya Digital Hub",
   tagline: "Your Business Deserves a Better Digital Presence.",
-  siteUrl: (process.env.APP_URL || "https://tasmiyadigitalhub.com")
-    .trim()
-    .replace(/\/$/, ""),
+  siteUrl: "https://tasmiya-digital-hub.vercel.app",
   defaultTitle:
     "Tasmiya Digital Hub | Digital Marketing Agency & Website Design",
   defaultDescription:
