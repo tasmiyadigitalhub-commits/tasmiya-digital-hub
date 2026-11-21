@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #24143d;
+    color: #24143d;
+  }
+
+  body {
+    background-color: #f8f7fc;
+    color: #24143d;
+    font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), system-ui, -apple-system, sans-serif;
+  }
+
+  h1,
+  h2 {
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid #9875e8;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
