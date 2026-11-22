@@ -19,23 +19,23 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Tasmiya Digital Hub | Digital Marketing Agency & Web Design",
+    absolute: "Website Design Services | Tasmiya Digital Hub",
   },
   description:
-    "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, and social media marketing for businesses in Pakistan and globally.",
+    "Tasmiya Digital Hub offers website design services, SEO, and digital marketing for businesses in Pakistan and international clients. Request a consultation.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Tasmiya Digital Hub | Digital Marketing Agency & Web Design",
+    title: "Website Design Services | Tasmiya Digital Hub",
     description:
-      "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, and social media marketing for businesses in Pakistan and globally.",
+      "Tasmiya Digital Hub offers website design services, SEO, and digital marketing for businesses in Pakistan and international clients. Request a consultation.",
     url: "/",
   },
   twitter: {
-    title: "Tasmiya Digital Hub | Digital Marketing Agency & Web Design",
+    title: "Website Design Services | Tasmiya Digital Hub",
     description:
-      "Tasmiya Digital Hub is a digital marketing agency offering website design, SEO services, and social media marketing for businesses in Pakistan and globally.",
+      "Tasmiya Digital Hub offers website design services, SEO, and digital marketing for businesses in Pakistan and international clients. Request a consultation.",
   },
 };
 
@@ -68,7 +68,7 @@ export default function HomePage() {
               </p>
 
               <h1 className="text-[clamp(2.25rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-tight text-white">
-                Build a Stronger Digital Presence for Your Business.
+                Website Design Services That Build a Stronger Digital Presence.
               </h1>
 
               <p className="max-w-xl text-base leading-relaxed text-[#D9CEF7] sm:text-lg">
