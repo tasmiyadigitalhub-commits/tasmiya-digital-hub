@@ -5,22 +5,24 @@ import { servicesList, processSteps } from "@/lib/content";
 import { ConsultationBanner } from "@/components/sections/ConsultationBanner";
 
 export const metadata: Metadata = {
-  title: "Website Design & SEO Services",
+  title: {
+    absolute: "Website Design Services in Pakistan | Tasmiya Digital Hub",
+  },
   description:
-    "Explore website design, landing pages, SEO services, speed optimization, and social media marketing support from Tasmiya Digital Hub in Pakistan and globally.",
+    "Professional website design services in Pakistan, landing pages, SEO setup, mobile speed optimization, and social media marketing by Tasmiya Digital Hub.",
   alternates: {
     canonical: "/services",
   },
   openGraph: {
-    title: "Website Design & SEO Services | Tasmiya Digital Hub",
+    title: "Website Design Services in Pakistan | Tasmiya Digital Hub",
     description:
-      "Explore website design, landing pages, SEO services, speed optimization, and social media marketing support from Tasmiya Digital Hub in Pakistan and globally.",
+      "Professional website design services in Pakistan, landing pages, SEO setup, mobile speed optimization, and social media marketing by Tasmiya Digital Hub.",
     url: "/services",
   },
   twitter: {
-    title: "Website Design & SEO Services | Tasmiya Digital Hub",
+    title: "Website Design Services in Pakistan | Tasmiya Digital Hub",
     description:
-      "Explore website design, landing pages, SEO services, speed optimization, and social media marketing support from Tasmiya Digital Hub in Pakistan and globally.",
+      "Professional website design services in Pakistan, landing pages, SEO setup, mobile speed optimization, and social media marketing by Tasmiya Digital Hub.",
   },
 };
 
@@ -35,7 +37,7 @@ export default function ServicesPage() {
               Our Services · Pakistan &amp; International
             </p>
             <h1 className="text-[clamp(2rem,4vw,3.25rem)] font-bold leading-[1.12] tracking-tight text-white">
-              Focused Website Design, SEO Services, and Social Media Marketing
+              Website Design Services in Pakistan, SEO &amp; Digital Marketing
             </h1>
             <p className="text-base leading-relaxed text-[#D9CEF7] sm:text-lg">
               Every service is built to work together: clear website design, fast
